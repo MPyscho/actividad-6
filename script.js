@@ -12,4 +12,9 @@ function multiplicar(a, b) {
 
 function dividir(a, b) {
     if (b === 0) {
-    
+        console.log("Error: No se puede dividir por cero.");
+        return;
+    }
+    return a / b;
+}
+
