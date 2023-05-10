@@ -1,6 +1,9 @@
 var num1 = parseInt(prompt("Introduce un numero "));
 var num2 = parseInt(prompt("Introduce un segundo numero"));
 
+var numeroConvertido= Number(num1)
+var numeroConvertido= Number(num2)
+
 function sumar(num1, num2) {
   console.log(num1 + num2);
 }
