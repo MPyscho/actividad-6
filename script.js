@@ -5,21 +5,21 @@ var numeroConvertido= Number(num1)
 var numeroConvertido= Number(num2)
 
 function sumar(num1, num2) {
-  console.log(num1 + num2);
+  return num1 + num2;
 }
 
 function restar(num1, num2) {
-  console.log(num1 - num2);
+  return (num1 - num2);
 }
 
 function multiplicar(num1, num2) {
-  console.log(num1 * num2);
+  return (num1 * num2);
 }
 
 
 function dividir(num1, num2) {
   if (num2 !== 0) {
-    console.log(num1 / num2);
+    return (num1 / num2);
   } else {
     console.log("No se puede dividir entre cero.");
   }
